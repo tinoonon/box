@@ -1,4 +1,10 @@
 {
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/box.png"
+    }
+  ],
   "headers": [
     {
       "source": "/box.png",

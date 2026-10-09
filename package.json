@@ -1,0 +1,14 @@
+{
+  "name": "box-image-hosting",
+  "version": "1.0.0",
+  "description": "Simple image hosting for box.png",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build needed for static files'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["vercel", "image", "hosting", "static"],
+  "author": "",
+  "license": "MIT"
+}

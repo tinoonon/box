@@ -1,14 +1,12 @@
 {
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/box.png"
-    }
-  ],
   "headers": [
     {
       "source": "/box.png",
       "headers": [
+        {
+          "key": "Content-Type",
+          "value": "image/png"
+        },
         {
           "key": "Cache-Control", 
           "value": "public, max-age=86400"
